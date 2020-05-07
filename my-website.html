@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>婚恋注册</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+   <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+    <style>
+        h3{
+          margin: 30px;  
+        }
+        .table{
+            width: 50%;margin: 0 auto;
+        }
+        .table tr td:first-child{
+            width: 20%;
+            text-align: right;
+        }
+        select.form-control {
+            width: 30%;
+            float: left;
+            margin-right: 5px;
+        }
+        .table>tbody>tr>td{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 style="text-align: center;">青春不常在,抓紧谈恋爱</h3>
+        <table class="table active table-hover">
+            <tr>
+                <td>性别</td>
+                <td>
+                    <label class="radio-inline">
+                      <input type="radio" name="sex" id="inlineRadio1" value="option1">男
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="sex" id="inlineRadio2" value="option2">女
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>生日</td>
+                <td>
+                  <select class="form-control">
+                    <option>-请选择年份-</option>
+                    <option>1990</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                  </select>
+                  <select class="form-control">
+                    <option>-请选择月份-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>12</option>
+                  </select>
+                  <select class="form-control">
+                    <option>-请选择日-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>30</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td>常住地</td>
+                <td>
+                   <input type="text" class="form-control" placeholder="请输入常住地">
+                </td>
+            </tr>
+            <tr>
+                <td>婚姻状况</td>
+                <td>
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 未婚
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 已婚
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>学历</td>
+                <td><input type="text" class="form-control" placeholder="请输入学历"></td>
+            </tr>
+            <tr>
+                <td>月薪</td>
+                <td><input type="text" class="form-control" placeholder="请输入月薪"></td>
+            </tr>
+            <tr>
+                <td>手机号码</td>
+                <td><input type="text" class="form-control" placeholder="请输入手机号"></td>
+            </tr>
+            <tr>
+                <td>昵称</td>
+                <td><input type="text" class="form-control" placeholder="请输入昵称"></td>
+            </tr>
+            <tr>
+                <td>喜欢的类型</td>
+                <td>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox1" value="option1"> 妩媚的
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox2" value="option2"> 可爱的
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox3" value="option3"> 小鲜肉
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox3" value="option3"> 都喜欢
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>自我介绍</td>
+                <td><textarea class="form-control" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="button" class="btn btn-danger btn-lg" style="width: 300px;">免费注册</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <label class="checkbox-inline">
+                        <input type="checkbox"> 我同意注册条款和会员加入标准
+                    </label>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html></html>
